@@ -1,7 +1,7 @@
 import {View,Image,Text,TouchableOpacity,StyleSheet} from 'react-native'
 import React from 'react';
 import {Ionicons} from '@expo/vector-icons';
-
+import { AntDesign } from '@expo/vector-icons';
 
 
 
@@ -16,7 +16,7 @@ export default function Cabecalho(){
             <Ionicons name="menu" size={24} color="white"/>
             <Text style ={estilo.Texto}> Play store </Text>            
             <Ionicons name="ios-search-sharp" size={24} color="white"/>
-            
+    
         </View>
 
 

@@ -3,7 +3,7 @@ import React from 'react';
 import {Ionicons} from '@expo/vector-icons';
 import Cabecalho from './src/components/Cabecalho/Cabecalho';
 import Botao from './src/components/botoes/Index';
-
+import { FontAwesome } from '@expo/vector-icons';
 
 
 
@@ -12,14 +12,38 @@ export default function App(){
     return(
        <View>
            <Cabecalho>
-           <Botao
-           Logo="game"
-           texto="Jogos"
-           cor="green"
-               />        
+             
                 
            </Cabecalho> 
+
+           <Botao
+           Logo="game-controller"
+           texto="Jogos"
+           cor="green"
+           Logo2="apps"
+           texto2="Aplicativos"
+           cor2="#295cd1"
+           
+            />         
         
+        <Botao
+           Logo="book"
+           texto="Livros"
+           cor="#DAA520"
+           Logo2="film"
+           texto2="Filmes"
+           cor2="#D81F26"
+           
+            />
+            <Botao
+           Logo="cart"
+           texto="Loja"
+           cor="green"
+           Logo2="game"
+           texto2="Charada"
+           cor2="purple"
+           
+            />
        </View>
 
     );

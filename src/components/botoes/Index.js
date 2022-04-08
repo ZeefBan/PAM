@@ -1,7 +1,7 @@
 import { View,Image,Text,TouchableOpacity,StyleSheet} from "react-native";
 import {Ionicons} from "@expo/vector-icons";
 import React,{ Fragment } from "react";
- 
+import { FontAwesome } from '@expo/vector-icons';
 
 
 export default function Botao({Logo,texto,cor,Logo2,texto2,cor2}){
@@ -13,13 +13,15 @@ export default function Botao({Logo,texto,cor,Logo2,texto2,cor2}){
         <TouchableOpacity style={[estilo.botoes ,{backgroundColor:cor}]}>
         <Ionicons name={Logo} size={24} color="white"
         style={{marginRight:10}}/>
-        <Text style ={estilo.textoBotao}> {Texto} </Text>
+
+        <Text style ={estilo.textoBotao}> {texto} </Text>
 
         </TouchableOpacity>
         <TouchableOpacity style={[estilo.botoes ,{backgroundColor:cor2}]}>
         <Ionicons name={Logo2} size={24} color="white"
         style={{marginRight:10}}/>
-        <Text style ={estilo.textoBotao}> {Texto2} </Text>
+        <Text style ={estilo.textoBotao}> {texto2} </Text>
+        
 
         </TouchableOpacity>
     </View>
@@ -44,7 +46,7 @@ const estilo = StyleSheet.create( {
     botoes:{
 
         padding:5,
-        marginHorizontal:'bold',
+        marginHorizontal:10,
         width:'45%',
         alignItems:'center',
         justifyContent: 'flex-start',
