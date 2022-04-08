@@ -38,10 +38,10 @@ export default function App(){
             <Botao
            Logo="cart"
            texto="Loja"
-           cor="green"
-           Logo2="game"
-           texto2="Charada"
-           cor2="purple"
+           cor="orange"
+           Logo2="cog"
+           texto2="Configurações"
+           cor2="gray"
            
             />
        </View>
