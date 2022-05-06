@@ -29,35 +29,22 @@ export default function Cabecalho(){
       header: {
 
           backgroundColor:'#002333',
-
           borderRadius:2,
-
           marginTop:8,
-
           width:'99,9%',
-
           padding:20,
-
           margin:2,
-
           alignItems:'center',
-
           flexDirection:'row',
-
           justifyContent: 'space-between',
-
           marginBottom:20
-
       },
 
       Texto:{
 
           color:'white',
-
           marginLeft:-120,
-
           fontSize:20,
-
           fontWeight:'bold'
 
       }
